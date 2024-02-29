@@ -148,7 +148,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [DimondDot/discourse](https://github.com/DimondDot/discourse)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|248<br/>Tools used|02/21/24 <br/>Report generated|
+|248<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -951,7 +951,7 @@ Full tech stack [here](/techstack.md)
 |[pg](https://rubygems.org/pg)|v1.4.6|02/05/13|Robin Ward |BSD-2-Clause|N/A|
 |[pry-byebug](https://rubygems.org/pry-byebug)|v3.10.1|06/05/20|Martin Brennan |MIT|N/A|
 |[pry-rails](https://rubygems.org/pry-rails)|v0.3.9|03/14/23|Blake Erickson |MIT|N/A|
-|[rack](https://rubygems.org/rack)|v2.2.7|07/08/20|Sam Saffron |MIT|N/A|
+|[rack](https://rubygems.org/rack)|v2.2.7|07/08/20|Sam Saffron |MIT|[CVE-2024-25126](https://github.com/advisories/GHSA-22f2-v57c-j9cx) (Low)<br/>[CVE-2024-26146](https://github.com/advisories/GHSA-54rr-7fvw-6x8f) (Low)<br/>[CVE-2024-26141](https://github.com/advisories/GHSA-xj5v-6v4g-jfw6) (Low)|
 |[rack-mini-profiler](https://rubygems.org/rack-mini-profiler)|v3.1.0|08/20/21|Alan Guo Xiang Tan |MIT|N/A|
 |[rack-protection](https://rubygems.org/rack-protection)|v3.0.6|08/20/21|Alan Guo Xiang Tan |MIT|N/A|
 |[rake](https://rubygems.org/rake)|v13.0.6|02/05/13|Robin Ward |MIT|N/A|
@@ -984,7 +984,7 @@ Full tech stack [here](/techstack.md)
 |[webdrivers](https://rubygems.org/webdrivers)|v5.2.0|03/14/23|Blake Erickson |MIT|N/A|
 |[webmock](https://rubygems.org/webmock)|v3.18.1|04/15/17|Guo Xiang Tan |MIT|N/A|
 |[webrick](https://rubygems.org/webrick)|v1.7.0|12/21/22|Rafael dos Santos Silva |BSD-2-Clause|N/A|
-|[yard](https://rubygems.org/yard)|v0.9.34|02/13/23|Martin Brennan |MIT|N/A|
+|[yard](https://rubygems.org/yard)|v0.9.34|02/13/23|Martin Brennan |MIT|[CVE-2024-27285](https://github.com/advisories/GHSA-8mq4-9jjh-9xrc) (Moderate)|
 
 <br/>
 <div align='center'>
