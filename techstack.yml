@@ -1,61 +1,13 @@
 repo_name: DimondDot/discourse
-report_id: 1e17361a6e8029bbd7f47d7a278e28ad
+report_id: e164f145c76ab7746edf1df4ccec89a0
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-29T20:10:47+00:00'
+timestamp: '2024-03-22T08:22:06+00:00'
 requested_by: jjaffeux
 provider: github
 branch: main
-detected_tools_count: 248
+detected_tools_count: 208
 tools:
-- name: Bel
-  description: A new dialect of Lisp, by Paul Graham
-  website_url: http://paulgraham.com/bel.html
-  open_source: true
-  hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: Languages
-  image_url: https://img.stackshare.io/service/11408/no-img-open-source.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/package.json
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2020-11-11 01:34:26.000000000 Z
-- name: C lang
-  description: One of the most widely used programming languages of all time
-  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
-  open_source: true
-  hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: Languages
-  image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/package.json
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2020-11-11 01:34:26.000000000 Z
-- name: D
-  description: Modern convenience. Modeling power. Native efficiency.
-  website_url: http://dlang.org/
-  open_source: true
-  hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: Languages
-  image_url: https://img.stackshare.io/service/3117/d-5.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/es/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/es/package.json
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2022-09-20 15:43:28.000000000 Z
-- name: ES6
-  description: The next version of JavaScript
-  website_url: http://www.ecma-international.org/ecma-262/6.0/
-  open_source: true
-  hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: Languages
-  image_url: https://img.stackshare.io/service/4109/16407404782_8b9c57eab3.jpg
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/package.json
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2020-11-11 01:34:26.000000000 Z
 - name: Handlebars.js
   description: Minimal Templating on Steroids
   website_url: http://handlebarsjs.com/
@@ -66,18 +18,6 @@ tools:
   image_url: https://img.stackshare.io/service/1143/Handlebars.png
   detection_source_url: https://github.com/DimondDot/discourse
   detection_source: Repo Metadata
-- name: JSON
-  description: A lightweight data-interchange format
-  website_url: http://www.json.org/
-  open_source: true
-  hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: Languages
-  image_url: https://img.stackshare.io/service/2880/1024px-JSON_vector_logo.svg.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/package.json
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2020-11-11 01:34:26.000000000 Z
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
     functions
@@ -92,26 +32,16 @@ tools:
 - name: Mustache
   description: Logic-less templates
   website_url: http://mustache.github.io/
+  version: 1.1.1
   open_source: true
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/1142/197655.png
-  detection_source_url: https://github.com/DimondDot/discourse
-  detection_source: Repo Metadata
-- name: Python
-  description: A clear and powerful object-oriented programming language, comparable
-    to Perl, Ruby, Scheme, or Java.
-  website_url: https://www.python.org
-  open_source: true
-  hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: Languages
-  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/package.json
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2020-11-11 01:34:26.000000000 Z
+  detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sam Saffron
+  last_updated_on: 2016-12-29 05:32:23.000000000 Z
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
     on simplicity and productivity
@@ -138,6 +68,17 @@ tools:
   detection_source: spec/fixtures/db/restore/error.sql
   last_updated_by: Gerhard Schlager
   last_updated_on: 2020-01-12 23:12:27.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/DimondDot/discourse
+  detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
   website_url: http://www.typescriptlang.org
@@ -152,20 +93,6 @@ tools:
   detection_source: vendor/assets/javascripts/highlightjs/package.json
   last_updated_by: Rafael dos Santos Silva
   last_updated_on: 2022-09-20 15:43:28.000000000 Z
-- name: ".NET"
-  description: A free, cross-platform, open source developer platform for building
-    many different types of applications
-  website_url: http://www.microsoft.com/net/
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: Frameworks (Full Stack)
-  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/package.json
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2020-11-11 01:34:26.000000000 Z
 - name: Bootstrap
   description: Simple and flexible HTML, CSS, and JS for popular UI components and
     interactions
@@ -247,19 +174,6 @@ tools:
   detection_source: app/assets/javascripts/bootstrap-json/package.json
   last_updated_by: Jarek Radosz
   last_updated_on: 2022-11-16 10:58:10.000000000 Z
-- name: Omi
-  description: Next generation web framework in 4KB JavaScript (Web Components + JSX
-    + Proxy + Path Updating)
-  website_url: https://github.com/Tencent/omi
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Javascript UI Libraries
-  image_url: https://img.stackshare.io/service/9702/omi-logo.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/package.json
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2020-11-11 01:34:26.000000000 Z
 - name: Rails
   description: Web development that doesn't hurt
   website_url: http://rubyonrails.org/
@@ -454,6 +368,21 @@ tools:
   detection_source: ".github/workflows/labeler.yml"
   last_updated_by: David Taylor
   last_updated_on: 2022-11-02 15:43:59.000000000 Z
+- name: Istio
+  description: Open platform to connect, manage, and secure microservices, by Google,
+    IBM, and Lyft
+  website_url: https://istio.io/
+  version: 0.11.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Microservices Tools
+  image_url: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
+  detection_source_url: https://github.com/DimondDot/discourse/blob/main/app/assets/javascripts/yarn.lock
+  detection_source: ".github/workflows/tests.yml"
+  last_updated_by: Jarek Radosz
+  last_updated_on: 2021-02-22 09:28:32.000000000 Z
 - name: Mocha
   description: Simple, flexible, fun javascript test framework for node.js &amp; the
     browser
@@ -495,18 +424,6 @@ tools:
   detection_source: Gemfile
   last_updated_by: Robin Ward
   last_updated_on: 2013-02-05 19:16:51.000000000 Z
-- name: PyPI
-  description: A repository of software for the Python programming language
-  website_url: https://pypi.org/
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Hosted Package Repository
-  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/package.json
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2020-11-11 01:34:26.000000000 Z
 - name: QUnit
   description: A JavaScript Unit Testing framework
   website_url: http://qunitjs.com/
@@ -543,10 +460,10 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/package.json
+  detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile
+  detection_source: Gemfile
   last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2020-11-11 01:34:26.000000000 Z
+  last_updated_on: 2022-12-27 18:28:13.000000000 Z
 - name: SinonJS
   description: Standalone test spies, stubs and mocks for JavaScript
   website_url: http://sinonjs.org/
@@ -598,20 +515,6 @@ tools:
   detection_source: vendor/assets/javascripts/highlightjs/package.json
   last_updated_by: Rafael dos Santos Silva
   last_updated_on: 2022-09-20 15:43:28.000000000 Z
-- name: hub
-  description: Wraps Git with extra features that make working with GitHub easier
-    (by GitHub)
-  website_url: http://hub.github.com/
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Git Tools
-  image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/package.json
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2020-11-11 01:34:26.000000000 Z
 - name: jsdom
   description: A JavaScript implementation of the WHATWG DOM and HTML standards, for
     use with node.js
@@ -675,31 +578,6 @@ tools:
   detection_source: Gemfile
   last_updated_by: Robin Ward
   last_updated_on: 2013-02-05 19:16:51.000000000 Z
-- name: Gmail
-  description: A free web-based e-mail service
-  website_url: https://mail.google.com
-  open_source: false
-  hosted_saas: true
-  category: Back Office
-  sub_category: Email Services
-  image_url: https://img.stackshare.io/service/3167/default_2d280843054d533c0a56c573c2e47e2cc1105a88.jpg
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/package.json
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2022-09-20 15:43:28.000000000 Z
-- name: Omise
-  description: An online payment gateway offering a wide range of processing solutions
-    for any business need
-  website_url: https://www.omise.co/
-  open_source: false
-  hosted_saas: true
-  category: Payments
-  sub_category: Payment Services
-  image_url: https://img.stackshare.io/service/8491/jYzpfxho_400x400.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/package.json
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2022-09-20 15:43:28.000000000 Z
 - name: Twilio SendGrid
   description: Email Delivery. Simplified.
   website_url: http://sendgrid.com
@@ -712,19 +590,6 @@ tools:
   detection_source: config/cloud/cloud66/files/production.rb
   last_updated_by: Philip Kallberg
   last_updated_on: 2013-10-14 16:09:29.000000000 Z
-- name: Typ
-  description: Turn Markdown into formatted PDFs
-  website_url: https://www.typ-set.com/
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Assets and Media
-  sub_category: File Conversion
-  image_url: https://img.stackshare.io/service/11914/typ.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/es/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/es/package.json
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2022-09-20 15:43:28.000000000 Z
 - name: Uppy
   description: The next open source file uploader for web browsers
   website_url: https://uppy.io/
@@ -753,44 +618,6 @@ tools:
   detection_source: Gemfile
   last_updated_by: Sam
   last_updated_on: 2018-02-25 23:29:25.000000000 Z
-- name: CommonJS
-  website_url: http://www.commonjs.org
-  open_source: false
-  hosted_saas: false
-  image_url: https://img.stackshare.io/service/2931/no-img-open-source.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/package.json
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2022-09-20 15:43:28.000000000 Z
-- name: Contrast
-  description: 'Welcome to the Era of Self-Protecting Software. #AppSec #Security
-    #IAST #RASP #DevSecOps #DevOps'
-  website_url: http://contrastsecurity.com
-  open_source: false
-  hosted_saas: false
-  image_url: https://img.stackshare.io/service/7116/NS-LOGOContrastSec.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/package.json
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2022-09-20 15:43:28.000000000 Z
-- name: EC
-  website_url: BUG
-  open_source: false
-  hosted_saas: false
-  image_url: https://img.stackshare.io/service/4455/no-img-open-source.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/package.json
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2020-11-11 01:34:26.000000000 Z
-- name: ECT
-  website_url: http://ectjs.com/
-  open_source: false
-  hosted_saas: false
-  image_url: https://img.stackshare.io/service/2391/no-img-open-source.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/package.json
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2020-11-11 01:34:26.000000000 Z
 - name: Font Awesome
   description: The internet's most popular icon toolkit
   website_url: https://fontawesome.com/
@@ -804,18 +631,6 @@ tools:
   detection_source: package.json
   last_updated_by: Gerhard Schlager
   last_updated_on: 2022-06-20 13:25:13.000000000 Z
-- name: Lob
-  description: Print and Mail for Developers
-  website_url: https://lob.com/
-  open_source: false
-  hosted_saas: false
-  category: Application Utilities
-  sub_category: Printing API
-  image_url: https://img.stackshare.io/service/281/default_917b21004d74cbcfcbafcd50aac4d1f3fe3747d5.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/package.json
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2020-11-11 01:34:26.000000000 Z
 - name: Lodash
   description: A JavaScript utility library
   website_url: https://lodash.com
@@ -871,17 +686,6 @@ tools:
   detection_source: vendor/assets/javascripts/highlightjs/package.json
   last_updated_by: Rafael dos Santos Silva
   last_updated_on: 2020-11-11 01:34:26.000000000 Z
-- name: Shell
-  description: A shell is a text-based terminal, used for manipulating programs and
-    files. Shell scripts typically manage program execution.
-  website_url: https://en.wikipedia.org/wiki/Shell_script
-  open_source: false
-  hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: Languages
-  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
-  detection_source_url: https://github.com/DimondDot/discourse
-  detection_source: Repo Metadata
 - name: UglifyJS
   description: A JavaScript parser, minifier, compressor and beautifier toolkit.
   website_url: http://lisperator.net/uglifyjs/
@@ -894,38 +698,6 @@ tools:
   detection_source: Gemfile
   last_updated_by: johnmcdowall
   last_updated_on: 2013-02-09 17:04:52.000000000 Z
-- name: Vercel AI SDK
-  description: An interoperable, streaming-enabled, edge-ready software development
-    kit for AI apps
-  website_url: https://sdk.vercel.ai/docs
-  open_source: true
-  hosted_saas: false
-  category: Communications
-  sub_category: Large Language Model Tools
-  image_url: https://img.stackshare.io/service/101756/default_4f2991cba3ec7fdd1cc87de69f4868157b0f2001.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/package.json
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2020-11-11 01:34:26.000000000 Z
-- name: auto
-  description: Making the Car buying process easier
-  website_url: http://autoportal.com/
-  open_source: false
-  hosted_saas: false
-  image_url: https://img.stackshare.io/service/2634/quvIzEn2_normal.jpg
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/package.json
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2022-09-20 15:43:28.000000000 Z
-- name: js
-  website_url: www.js.com
-  open_source: false
-  hosted_saas: false
-  image_url: https://img.stackshare.io/service/5588/jscom.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/package.json
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2020-11-11 01:34:26.000000000 Z
 - name: jsdoc
   description: An API documentation generator for JavaScript
   website_url: http://usejsdoc.org/
@@ -938,16 +710,6 @@ tools:
   detection_source: package.json
   last_updated_by: Martin Brennan
   last_updated_on: 2023-02-13 12:09:57.000000000 Z
-- name: nci
-  description: Flexible, open source continuous integration server written in node.js
-  website_url: https://github.com/node-ci/nci
-  open_source: false
-  hosted_saas: false
-  image_url: https://img.stackshare.io/service/7802/13189529.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/package.json
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2020-11-11 01:34:26.000000000 Z
 - name: "@babel/core"
   description: Babel compiler core
   package_url: https://www.npmjs.com/@babel/core
@@ -1059,19 +821,6 @@ tools:
   detection_source: vendor/assets/javascripts/highlightjs/package.json
   last_updated_by: Rafael dos Santos Silva
   last_updated_on: 2022-09-20 15:43:28.000000000 Z
-- name: ai
-  description: The Vercel AI SDK is **a library for building AI-powered streaming
-    text and chat UIs**
-  package_url: https://www.npmjs.com/ai
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/npm/image.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/package.json
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2020-11-11 01:34:26.000000000 Z
 - name: autod
   description: Auto generate dependencies
   package_url: https://www.npmjs.com/autod
@@ -1144,7 +893,7 @@ tools:
   last_updated_on: 2022-09-20 15:43:28.000000000 Z
   vulnerabilities:
   - name: Regular Expression Denial of Service in clean-css
-    cve_id: 
+    cve_id:
     cve_url: https://github.com/advisories/GHSA-wxhq-pm8v-cw75
     detected_date: Aug 22
     severity: low
@@ -1592,19 +1341,6 @@ tools:
   detection_source: app/assets/javascripts/bootstrap-json/package.json
   last_updated_by: Jarek Radosz
   last_updated_on: 2022-11-16 10:58:10.000000000 Z
-- name: github
-  description: 'DEPRECATED: renamed to @octokit/rest'
-  package_url: https://www.npmjs.com/github
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16751/default_6dc099b12d47e378ae121fb53c336fe5d8f0ffc8.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
-  detection_source: vendor/assets/javascripts/highlightjs/package.json
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2022-09-20 15:43:28.000000000 Z
 - name: glob
   description: A little globber
   package_url: https://www.npmjs.com/glob
@@ -2217,20 +1953,6 @@ tools:
   detection_source: Gemfile
   last_updated_by: Régis Hanol
   last_updated_on: 2019-02-13 20:26:40.000000000 Z
-- name: aws-sdk-sns
-  description: Official AWS Ruby gem for Amazon Simple Notification Service
-  package_url: https://rubygems.org/aws-sdk-sns
-  version: 1.53.0
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Régis Hanol
-  last_updated_on: 2019-02-13 20:26:40.000000000 Z
 - name: binding_of_caller
   description: Retrieve the binding of a method's caller
   package_url: https://rubygems.org/binding_of_caller
@@ -2245,35 +1967,6 @@ tools:
   detection_source: Gemfile
   last_updated_by: Leonardo Mosquera
   last_updated_on: 2022-11-28 19:30:19.000000000 Z
-- name: cbor
-  description: CBOR is a library for the CBOR binary object representation format
-  package_url: https://rubygems.org/cbor
-  version: 0.5.9
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Martin Brennan
-  last_updated_on: 2019-10-02 02:08:41.000000000 Z
-- name: certified
-  description: Ensure net/https uses OpenSSL::SSL::VERIFY_PEER to verify SSL certificates
-    and provides certificate bundle in case OpenSSL cannot find one
-  package_url: https://rubygems.org/certified
-  version: 1.0.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Sam
-  last_updated_on: 2013-05-13 08:04:03.000000000 Z
 - name: colored2
   description: This is a heavily modified fork of http://github.com/defunkt/colored
     gem, with many sensible pull requests combined
@@ -2303,19 +1996,6 @@ tools:
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2020-03-17 11:09:45.000000000 Z
-- name: csv
-  description: The CSV library provides a complete interface to CSV files and data
-  package_url: https://rubygems.org/csv
-  license: BSD-2-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile
-  detection_source: Gemfile
-  last_updated_by: Robin Ward
-  last_updated_on: 2013-02-05 19:16:51.000000000 Z
 - name: diffy
   description: Convenient diffing in ruby
   package_url: https://rubygems.org/diffy
@@ -2330,20 +2010,6 @@ tools:
   detection_source: Gemfile
   last_updated_by: Guo Xiang Tan
   last_updated_on: 2019-06-14 06:42:53.000000000 Z
-- name: digest
-  description: Like I said, create reports the easy way
-  package_url: https://rubygems.org/digest
-  version: 3.1.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Jarek Radosz
-  last_updated_on: 2022-10-12 13:22:22.000000000 Z
 - name: excon
   description: EXtended http
   package_url: https://rubygems.org/excon
@@ -2428,34 +2094,6 @@ tools:
   detection_source: Gemfile
   last_updated_by: David Taylor
   last_updated_on: 2022-10-05 12:19:04.000000000 Z
-- name: fast_blank
-  description: Provides a C-optimized method for determining if a string is blank
-  package_url: https://rubygems.org/fast_blank
-  version: 1.0.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Sam Saffron
-  last_updated_on: 2020-07-29 07:08:06.000000000 Z
-- name: fast_xs
-  description: Fast_xs provides C extensions for escaping text
-  package_url: https://rubygems.org/fast_xs
-  version: 0.8.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Sam Saffron
-  last_updated_on: 2020-07-29 07:08:06.000000000 Z
 - name: fastimage
   description: FastImage finds the size or type of an image given its uri by fetching
     as little as needed
@@ -2500,21 +2138,6 @@ tools:
   detection_source: Gemfile
   last_updated_by: Alan Guo Xiang Tan
   last_updated_on: 2021-08-20 02:20:08.000000000 Z
-- name: http_accept_language
-  description: Find out which locale the user preferes by reading the languages they
-    specified in their browser
-  package_url: https://rubygems.org/http_accept_language
-  version: 2.1.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: David Taylor
-  last_updated_on: 2023-01-13 10:52:05.000000000 Z
 - name: image_optim
   description: Command line tool and ruby interface to optimize
   package_url: https://rubygems.org/image_optim
@@ -2529,6 +2152,20 @@ tools:
   detection_source: Gemfile
   last_updated_by: Blake Erickson
   last_updated_on: 2021-05-25 01:27:20.000000000 Z
+- name: json
+  description: This is a JSON implementation as a Ruby extension in C
+  package_url: https://rubygems.org/json
+  version: 2.6.3
+  license: Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18822/default_19184669508c0f71aec9521d5f14d71b77203130.png
+  detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Penar Musaraj
+  last_updated_on: 2021-03-11 02:32:23.000000000 Z
 - name: listen
   description: The Listen gem listens to file modifications and notifies you about
     the changes
@@ -2544,48 +2181,6 @@ tools:
   detection_source: Gemfile
   last_updated_by: Sam
   last_updated_on: 2017-04-13 14:26:07.000000000 Z
-- name: lograge
-  description: Tame Rails' multi-line logging into a single line per request
-  package_url: https://rubygems.org/lograge
-  version: 0.12.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Guo Xiang Tan
-  last_updated_on: 2017-10-27 14:54:50.000000000 Z
-- name: logstash-event
-  description: Library that contains the classes required to create LogStash events
-  package_url: https://rubygems.org/logstash-event
-  version: 1.2.02
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Sam
-  last_updated_on: 2022-05-09 22:19:02.000000000 Z
-- name: logstash-logger
-  description: Ruby logger that writes directly to LogStash
-  package_url: https://rubygems.org/logstash-logger
-  version: 0.26.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Sam
-  last_updated_on: 2022-05-09 22:19:02.000000000 Z
 - name: loofah
   description: Loofah is a general library for manipulating and transforming HTML/XML
     documents and fragments, built on top of Nokogiri
@@ -2615,20 +2210,20 @@ tools:
   detection_source: Gemfile
   last_updated_by: Sam
   last_updated_on: 2013-04-24 01:59:59.000000000 Z
-- name: maxminddb
-  description: Pure Ruby MaxMind DB
-  package_url: https://rubygems.org/maxminddb
-  version: 0.1.22
+- name: mail
+  description: A really Ruby Mail handler
+  package_url: https://rubygems.org/mail
+  version: 2.8.1
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
+  image_url: https://img.stackshare.io/package/18937/default_ec64e7b00489c2b012b637eba2526e31e442c25b.png
   detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile.lock
   detection_source: Gemfile
-  last_updated_by: Bianca Nenciu
-  last_updated_on: 2018-10-09 14:21:41.000000000 Z
+  last_updated_by: Jarek Radosz
+  last_updated_on: 2023-03-24 19:10:28.000000000 Z
 - name: memory_profiler
   description: Memory profiling routines for Ruby 2.3+
   package_url: https://rubygems.org/memory_profiler
@@ -2643,34 +2238,6 @@ tools:
   detection_source: Gemfile
   last_updated_by: Alan Guo Xiang Tan
   last_updated_on: 2021-08-20 02:20:08.000000000 Z
-- name: mini_mime
-  description: A lightweight mime type lookup toy
-  package_url: https://rubygems.org/mini_mime
-  version: 1.1.2
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: dependabot-preview[bot]
-  last_updated_on: 2020-03-17 11:09:45.000000000 Z
-- name: mini_racer
-  description: Minimal embedded v8 engine for Ruby
-  package_url: https://rubygems.org/mini_racer
-  version: 0.6.3
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: dependabot-preview[bot]
-  last_updated_on: 2020-03-17 11:09:45.000000000 Z
 - name: minitest
   description: Minitest provides a complete suite of testing facilities supporting
     TDD, BDD, mocking, and benchmarking
@@ -2728,12 +2295,18 @@ tools:
   last_updated_by: Sam
   last_updated_on: 2016-06-07 06:51:39.000000000 Z
   vulnerabilities:
+  - name: Use-after-free in libxml2 via Nokogiri::XML::Reader
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-vcc3-rw6f-jv97
+    detected_date: Mar 19
+    severity: moderate
+    first_patched: 1.15.6
   - name: Nokogiri update packaged libxml2 to v2.12.5 to resolve CVE-2024-25062
-    cve_id: 
+    cve_id:
     cve_url: https://github.com/advisories/GHSA-xc9x-jj77-9p9j
     detected_date: Feb 6
     severity: moderate
-    first_patched: 1.16.2
+    first_patched: 1.15.6
 - name: oj
   description: The fastest JSON parser and object serializer
   package_url: https://rubygems.org/oj
@@ -2758,34 +2331,6 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19539/default_218dae89c7df5d5855caf68241b819cfe024f92e.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: David Taylor
-  last_updated_on: 2019-06-03 18:17:00.000000000 Z
-- name: omniauth-github
-  description: Official OmniAuth strategy for GitHub
-  package_url: https://rubygems.org/omniauth-github
-  version: 1.4.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: David Taylor
-  last_updated_on: 2023-01-13 10:52:05.000000000 Z
-- name: omniauth-google-oauth2
-  description: A Google OAuth2 strategy for OmniAuth 1.x
-  package_url: https://rubygems.org/omniauth-google-oauth2
-  version: 0.8.2
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
   detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: David Taylor
@@ -2922,20 +2467,6 @@ tools:
     detected_date: Feb 29
     severity: low
     first_patched: 2.2.8.1
-- name: rack-mini-profiler
-  description: Profiling toolkit for Rack applications with Rails integration
-  package_url: https://rubygems.org/rack-mini-profiler
-  version: 3.1.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Alan Guo Xiang Tan
-  last_updated_on: 2021-08-20 02:20:08.000000000 Z
 - name: rack-protection
   description: Protect against typical web attacks
   package_url: https://rubygems.org/rack-protection
@@ -2964,20 +2495,6 @@ tools:
   detection_source: Gemfile
   last_updated_by: Robin Ward
   last_updated_on: 2013-02-05 19:16:51.000000000 Z
-- name: rchardet
-  description: Character encoding auto-detection in Ruby
-  package_url: https://rubygems.org/rchardet
-  version: 1.8.0
-  license: LGPL-2.1
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Gerhard Schlager
-  last_updated_on: 2018-07-31 10:02:18.000000000 Z
 - name: redcarpet
   description: A fast, safe and extensible Markdown to
   package_url: https://rubygems.org/redcarpet
@@ -3006,19 +2523,6 @@ tools:
   detection_source: Gemfile
   last_updated_by: Sam Saffron
   last_updated_on: 2019-12-12 02:35:43.000000000 Z
-- name: reverse_markdown
-  description: Map simple html back into markdown, e.g
-  package_url: https://rubygems.org/reverse_markdown
-  license: WTFPL
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile
-  detection_source: Gemfile
-  last_updated_by: Blake Erickson
-  last_updated_on: 2023-03-14 16:19:31.000000000 Z
 - name: rinku
   description: A fast and very smart autolinking library that acts as a drop-in replacement
     for Rails `auto_link`
@@ -3048,6 +2552,13 @@ tools:
   detection_source: Gemfile
   last_updated_by: Blake Erickson
   last_updated_on: 2020-08-19 15:16:33.000000000 Z
+  vulnerabilities:
+  - name: ROTP 6.2.2 and 6.2.1 has 0666 permissions for the .rb files.
+    cve_id: CVE-2024-28862
+    cve_url: https://github.com/advisories/GHSA-x2h8-qmj4-g62f
+    detected_date: Mar 19
+    severity: moderate
+    first_patched: 6.3.0
 - name: rqrcode
   description: Rqrcode is a library for encoding QR Codes
   package_url: https://rubygems.org/rqrcode
@@ -3100,20 +2611,6 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19062/default_7520676ca0e090ecd07df08a8e0994b056912237.png
-  detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2023-02-07 15:24:57.000000000 Z
-- name: ruby-readability
-  description: Port of arc90's readability project to ruby
-  package_url: https://rubygems.org/ruby-readability
-  version: 0.7.0
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
   detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Rafael dos Santos Silva
@@ -3270,6 +2767,20 @@ tools:
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2020-03-17 11:09:45.000000000 Z
+- name: thor
+  description: Thor is a toolkit for building powerful command-line interfaces
+  package_url: https://rubygems.org/thor
+  version: 1.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18827/default_fa0604c1b3b2c413c942b4fa310935704d314c2f.png
+  detection_source_url: https://github.com/DimondDot/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Guo Xiang Tan
+  last_updated_on: 2017-03-03 02:14:35.000000000 Z
 - name: tiny_tds
   description: TinyTDS - A modern, simple and fast FreeTDS library for Ruby using
     DB-Library
@@ -3410,4 +2921,4 @@ tools:
     cve_url: https://github.com/advisories/GHSA-8mq4-9jjh-9xrc
     detected_date: Feb 29
     severity: moderate
-    first_patched: 0.9.35
+    first_patched: 0.9.36
